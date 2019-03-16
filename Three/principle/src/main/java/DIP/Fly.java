@@ -2,13 +2,13 @@ package DIP;
 
 public class Fly implements Bird {
     @Override
-    public void canEat(String food) {
-        System.out.println("I eat seeds.");
+    public String canEat() {
+        return "I eat seeds.";
     }
 
     @Override
-    public void move() {
-        System.out.println("I can fly.");
+    public String move() {
+        return "I can fly.";
 
     }
 }
